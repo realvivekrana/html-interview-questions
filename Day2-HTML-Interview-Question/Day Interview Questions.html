@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 2 HTML Interview question</title>
+</head>
+<body>
+    <h1>Q.21 How many types of headings are der ?How to decide which to use where? </h1>
+    <h1>Answer--></h1>
+    <pre>
+        <h1>There are six types of headings in HTML, from h1 tag to h6.</h1>
+
+            <h1>Types of Headings:</h1>
+            <h1>h1 → Most important (main heading)</h1>
+            
+            <h2> h2 → Subheading under </h2>
+            
+            <h3> h3 → Sub-subheading under </h3>
+            
+            ...
+            
+           <h6> h6→ Least important heading (rarely used).
+    </pre>
+    <br>
+    <pre>
+        <h3>How to decide which to use where?</h3>
+        <h1>Answer--></h1>
+        
+        HTML Heading	       Real-World Equivalent	            Usage
+          h1	                     Book Title	                  Use once per page (main topic/title)
+          h2	                  Chapter Title	                  Major sections under the main heading
+          h3	                  Subchapter/Section Title	       Subsections inside h2tag sections
+          h4-h6  	              Smaller subsections	           Use if you need deeper hierarchy
+    </pre>
+    <br>
+    <h1>Q.22 Difference between block and inline?</h1>
+    <h1>Answer--></h1>
+    <pre>
+         <h3>Block Elements</h3>
+         *Take up the full width available (like a block).
+         *Always start on a new line.
+         *You can set width, height, margin, and padding freely.
+
+     Examples: div tag,paragraph tag,h1 tag-h6 tag,section,article etc.
+
+
+
+    <h3>Inline Elements</h3>
+     *Take up only as much width as their content.
+     *Do not start on a new line.
+     *You can set horizontal margins and padding, but not width/height.
+     Examples: span tag,strong tag,em tag,img tag etc.
+     </pre>
+     <br>
+     <h1> Q.23 Difference between em and strong? </h1>
+     <h1>Answer--></h1>
+     <pre> em: em used for emphasized the text.
+           strong: strong used more important text bold.
+     </pre>
+     <br>
+     <h1>Q.24 What are attributes?</h1>
+     <h1>Answer--></h1>
+     <pre>
+            *HTML attributes provide additional information about html elements.
+            EX: <img src="">
+            *Attributes are always specificed with in start tag.
+            EX: <a href="url">click</a>
+            *There can be multiple attributes for a single html element.
+     </pre>
+     <br>
+     <h1>Q.25 Difference between HTML tags and elements?</h1>
+     <h1>Answer--></h1>
+     <pre>
+        <h3>HTML Tag</h3>
+          *A tag is the part of HTML that defines the start or end of an element.
+          *It’s what you write inside the angle brackets: < >.
+
+
+        <h3>HTML Element</h3>
+             An element is the complete structure, including:
+               *Opening tag.
+               *Content (if any).
+               *Closing tag.
+
+     </pre>
+     <br>
+     <h1>Q.26 Explain br tags?</h1>
+     <h1>Answer--></h1>
+     <pre>
+         br tag is used to break a line or create a new line.
+     </pre>
+     <br>
+     <h1>Q.27 What are semantic tags?</h1>
+     <h1>Answer--></h1>
+     <pre>
+        Semantic tags clearly describe the purpose or meaning of the content inside them — both to browsers and developers (and even search engines).
+     </pre>
+     <br>
+     <h1>Q.28 Write code to create an ordered list with roman numbers?</h1>
+     <h1>Answer--></h1>
+     <h3>My Roman List</h3>
+     <ol type="I">
+        <li>Introduction</li>
+        <li>History</li>
+        <li>Architecture</li>
+        <li>Culture</li>
+        <li>Conclusion</li>
+     </ol>
+     <br>
+     <h1>Q.29 Write code to create an unordered list with circle </h1>
+     <h1>Answer--></h1>
+     <h2>My Circle List</h2>
+     <ul type="circle">
+       <li>HTML</li>
+       <li>CSS</li>
+       <li>JavaScript</li>
+       <li>SQL</li>
+     </ul>
+     <br>
+     <h1>Q.30 Write code to create a link to https://www.prepbytes.com</h1>
+     <h1>Answer--></h1>
+     <p>Click here to visit: 
+        <a href="https://www.prepbytes.com" target="_blank">PrepBytes</a>
+      </p>
+    <br>
+    <h1>Q.31 Write a code to insert an image </h1>
+    <h1>Answer--></h1>
+    <h2>My Image</h2>
+    <img src="Car.jpg" alt="A sample image" width="400" height="300">
+    <br>
+    <h1>Q.32 Write html code to create a 2*2 table : Table columns should be name and salary , and provide two entries for this.</h1>
+    <h1>Answer--></h1>
+    <table border="1">
+        <tr>
+          <th>Name</th>
+          <th>Salary</th>
+        </tr>
+        <tr>
+          <td>Akash</td>
+          <td>₹50,000</td>
+        </tr>
+        <tr>
+          <td>Ravi</td>
+          <td>₹45,000</td>
+        </tr>
+      </table>
+    <br>
+    <h1> Q.33 Create a form contain input fields like name age email and contact </h1>
+    <h1>Answer--></h1>
+      <form>
+        <h3>User Information Form</h3>
+
+        <input type="text" placeholder="Enter Name" name="name" required><br><br>
+    
+        <input type="number" placeholder="Enter Age" name="age" required><br><br>
+    
+        <input type="email" placeholder="Enter Email" name="email" required><br><br>
+    
+        <input type="tel" placeholder="Enter Contact" name="contact" required><br><br>
+    
+        <input type="submit" value="Submit">
+      </form>
+      <br>
+      <h1>Q.34 Create a table and explain how to acheive colspan </h1>
+      <h1>Answer--></h1>
+                
+      <table border="1">
+        <tr>
+          <th>Name</th>
+          <th>Age</th>
+          <th>Location</th>
+        </tr>
+        <tr>
+          <td>Pawan</td>
+          <td>25</td>
+          <td>Delhi</td>
+        </tr>
+        <tr>
+          <td colspan="3">pawan92735@gmail.com</td>
+        </tr>
+        <tr>
+          <td>Suman</td>
+          <td>30</td>
+          <td>Mumbai</td>
+        </tr>
+      </table>
+      <br>
+      <h1>Q.35 Create radio button (MERN, MEAN : course)and checkbox(HTML, CSS, React, Node : technology) and explain the difference between these two</h1> 
+      <h1>Answer--></h1>
+      <h2>Select a Course:</h2>
+      <!-- Radio Buttons without label -->
+      <input type="radio" name="course" value="MERN"> MERN<br>
+      <input type="radio" name="course" value="MEAN"> MEAN<br>
+    
+      <h2>Select Technologies:</h2>
+      <!-- Checkboxes -->
+      <input type="checkbox" name="tech" value="HTML"> HTML<br>
+      <input type="checkbox" name="tech" value="CSS"> CSS<br>
+      <input type="checkbox" name="tech" value="React"> React<br>
+      <input type="checkbox" name="tech" value="Node"> Node<br>
+      <br>
+      <h1>Q.36 How many types of heading does an HTML contain?</h1>
+      <h1>Answer--></h1>
+      <h1>There are basicly 6 types..</h1>
+      <h1>This is H1</h1>
+      <h2>This is H2</h2>
+      <h3>This is H3</h3>
+      <h4>This is H4</h4>
+      <h5>This is H5</h5>
+      <h6>This is H6</h6>
+      <br>
+      <h1>Q.37 Which heading have highest priority and Least priority.?</h1>
+      <h1>Answer--></h1>
+      <pre>
+        <h1>Heading h1</h1>
+        Highest Priority Heading:
+        Used for main titles or page headings
+        It is the most important in terms of structure and SEO.
+        <br>
+        <h1>Heading h6</h1>
+        Least Priority Heading:
+        Used for least important subheadings
+        Smallest in size and lowest in structural importance.
+      </pre>
+      <br>
+      <h1>Q.38 How to create a hyperlink in HTML?</h1>
+      <h1>Answer--></h1>
+      <a href="https://www.google.com">Go to Google</a>
+      <br>
+      <h1>Q.39 Which HTML tag is used to display the data in the tabular form? </h1>
+      <h1>Answer--></h1>
+      <h1>To display data in a tabular form in HTML, we use the <table> tag.</h1>
+      <h1>Q.40 Why do we use colgroup tag in table tag.?</h1>
+      <h1>Answer--></h1>
+      <p> WE use to colgroup because it specifices a group of  one or more columns in table for formating.</p>
+</body>
+</html>
